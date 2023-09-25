@@ -1,0 +1,56 @@
+.main-advantages {
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+
+.main-advantages__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+    
+}
+
+.main-advantages__box {
+    width: 230px;
+}
+
+.main-subtitle.-advantages::before {
+    content: '';
+    display: inline-block;
+    margin-right: 5px;
+    width: 10px;
+    height: 21px;
+    background-color: blue;
+}
+
+.main-advantages__container div:nth-child(3n+1) h3::before {
+    background-color: var(--clr-green-light);
+
+}
+
+.main-advantages__container div:nth-child(3n+2) h3::before {
+    background-color: var(--clr-pink-dark);
+}
+
+.main-advantages__container div:nth-child(3n+3) h3::before {
+    background-color: var(--clr-green-dark);
+}
+
+/* .main-advantages__container div:nth-child(6n +1) h3::before, .main-advantages__container div:nth-child(6n +4) h3::before {
+    background-color: var(--clr-green-light);
+
+}
+.main-advantages__container div:nth-child(6n +2) h3::before, .main-advantages__container div:nth-child(6n +5) h3::before {
+    background-color: var(--clr-pink-dark);
+
+}
+
+.main-advantages__container div:nth-child(6n +3) h3::before, .main-advantages__container div:nth-child(6n +6) h3::before {
+    background-color: var(--clr-green-dark);
+
+} */

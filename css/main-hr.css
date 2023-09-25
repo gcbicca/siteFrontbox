@@ -1,0 +1,17 @@
+.main-hr {
+    border: none;
+    height: 2px;
+    background-color: var(--clr-pink-dark);
+    width: 190px;
+    margin: 20px auto;
+}
+
+.main-hr.-plans {
+    background-color: blue;
+    width: 30px;
+    margin: 10px auto
+}
+
+.main-hr.-plans.-ultra {
+    background-color: var(--clr-pink-dark);
+}

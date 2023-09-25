@@ -1,0 +1,22 @@
+.main-plans__box {
+    border: 2px solid blue;
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.main-plans__box.-premium {
+    height: 350px;
+}
+
+.main-plans__box.-ultra {
+    height: 400px;
+    background-color: var(--clr-green-light);
+    border: 2px solid var(--clr-pink-dark);
+}
+

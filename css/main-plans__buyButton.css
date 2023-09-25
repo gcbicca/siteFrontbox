@@ -1,0 +1,10 @@
+.main-plans__buyButton {
+    border: 2px solid blue;
+    padding: 15px 10px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.main-plans__buyButton.-ultra {
+    border: 2px solid var(--clr-pink-dark);
+}

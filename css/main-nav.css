@@ -1,0 +1,12 @@
+.nav__list {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav__link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}

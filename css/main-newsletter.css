@@ -1,0 +1,51 @@
+.main-newsletter {
+    
+    background-color: var(--clr-green-light);
+    
+    
+}
+
+.main-newsletter__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 45px 0px;
+}
+
+
+.main-form {
+    background-color: var(--clr-pink-dark);
+    padding: 10px 8px;
+    /* text-align: center; */
+    display: flex;
+    margin: 20px 20px;
+
+}
+
+.main-form__button {
+    border: none;
+    background-color: white;
+    background: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 10px;
+}
+
+.main-form__button:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--clr-white);
+    cursor: pointer;
+    
+}
+
+.main-form__email {
+    border: none;
+    background-color: var(--clr-white);
+    padding: 15px;
+    width: 250px;
+    margin: 0px;
+    border-radius: 0px;
+}

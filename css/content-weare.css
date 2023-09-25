@@ -1,0 +1,29 @@
+.content-weare {
+    /* display: flex;
+    flex-direction: column; */
+    /* SOMOS-C */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.box-weare {
+    
+    /* height: 150px;
+    width: 500px;
+    flex-shrink: 1; */
+    flex: 6 1 160px;
+    /* Flex: flex-grow flex-shrink flex-basis
+    O box tem que ocupar 6 espaços/ pode reduzir para caber/ e o tamanho inicial é 160px */
+}
+
+.content-weare__paragraph {
+    line-height: 21.82px;
+    padding: 10px 10px;
+
+}
+
+.content-weare__img {
+    flex: 1 1 350px;
+}
